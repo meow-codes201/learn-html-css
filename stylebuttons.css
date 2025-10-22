@@ -1,0 +1,38 @@
+#sub{
+background-color: rgb(200, 0, 0);
+color:white;
+border-color: black;
+border-radius: 4px;
+border-style: solid;
+height: 36px;
+width: 100px;
+cursor: pointer;
+}
+
+#join{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 136, 255);
+    background-color: white;
+    padding: 5px 10px 5px 10px;
+    margin-left: 5px;
+    border-style: solid;
+    border-color: rgb(0, 136, 255);
+    border-width: 1.9px;
+    border-radius: 2px;
+    cursor: pointer;
+
+}
+#tweet{
+    background-color: rgb(59, 162, 252);
+    color: white;
+    border-radius: 18px;
+    margin-left: 3px;
+    height: 36px;
+    width: 80px;
+    border-color: rgb(59, 162, 252);
+    border-style: solid;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
