@@ -1,0 +1,11 @@
+button{
+    background-color: green;
+    padding: 9px 20px 9px 20px;
+    color: white;
+    border: 1px solid green;
+    font-size: 20px;
+    transition: padding 0.15s;
+}
+button:hover{
+    padding: 15px 25px 15px 25px;
+}
