@@ -1,0 +1,78 @@
+#uber{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px 13px 8px 13px;
+    font-size: 11px;
+    border-radius: 3px;
+    border-color:black;
+    border-style: solid;
+    cursor: pointer;
+    margin-right:5px ;
+}
+
+#Amazon{
+
+    background-color: rgb(255, 216, 20);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 35px 5px 35px;
+    border: none;
+    border-radius:15px;
+    font-size: small;
+    cursor: pointer;
+    /* font-weight: 502; */
+}
+#github{
+
+    background-color: rgb(46,164,79);
+    color: white;
+    padding: 5px 15px 6px 15px;
+    border-radius: 8px;
+    border: none;
+    border-style:solid ;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+.bootstrap{
+
+    padding: 9px 18px 9px 18px;
+    border-radius: 2px;
+    border:none;
+    font-size: 10px;
+    /* font-weight: 540; */
+    font-weight: bold;
+
+
+}
+#bootstrap-start{
+    background-color: rgb(121, 82, 179);
+    color: white;
+    margin-right: 5px;
+}
+#bootstrap-download{
+    background-color: white;
+    color: rgb(108,117,125);
+    border: 1px solid rgb(137, 149, 159);
+}
+
+.linkedin{
+    border: 1px solid rgb(10,102,194);
+    padding: 5px 15px 5px 15px;
+    border-radius: 20px;
+    font-size: small;
+    font-weight: bold;
+}
+#linkedin-apply{
+    background-color: rgb(10,102,194);
+    color: white;
+}
+
+#linkedin-save{
+    color: rgb(10,102,194);
+    background-color: white;
+    /* border: 2px solid rgb(10,102,194); */
+
+}
