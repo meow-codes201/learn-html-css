@@ -1,0 +1,61 @@
+#la{
+
+    color: rgb(0,113,133);
+    /* font-size: 25px; */
+    transition:color 0.15s;
+
+}
+#la:hover{
+    color: rgb(255, 149, 0);
+}
+#nike{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#stock{
+    color: rgb(0,118,0);
+    font-weight: bold;
+}
+
+
+/* #free{
+    font-weight: bold;
+} */
+
+.add{
+border: none;
+border-radius: 25px;
+padding: 10px 25px 10px 25px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+
+margin-right: 5px;
+
+}
+
+#cart{
+background-color: rgb(255,216,20);
+transition: background-color 0.15s;
+}
+#cart:hover{
+    background-color: rgb(221, 188, 21);
+}
+#cart:active{
+    background-color: rgba(255,216,20,0.8);
+
+}
+
+#buy{
+background-color: rgb(255,164,28);
+transition: background-color 0.15s;
+}
+#buy:hover{
+background-color: rgb(248, 151, 5);
+
+}
+
+#buy:active{
+background-color: rgba(255,164,28,0.5);
+
+}
