@@ -1,0 +1,44 @@
+h1{
+    font-family: Roboto;
+}
+/* Light (300) */
+.light-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+/* Regular (400) */
+.normal-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+/* Bold (700) */
+.bold-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+/* Italic (400 italic) */
+.italic-text {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-weight: 400;
+}
+
+body {
+  font-family: 'Bitcount Grid Single', sans-serif;
+}
+
+/* specific weights */
+h1 {
+  font-weight: 900; /* thick and bold */
+}
+
+h2 {
+  font-weight: 600; /* semi-bold */
+}
+
+p {
+  font-weight: 300; /* lighter, good for paragraphs */
+}
