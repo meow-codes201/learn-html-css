@@ -1,8 +1,12 @@
-p{
+p {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px 0px 0px 0px;
 }
+span{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 0px 0px 0px;
 
+}
 .title{
     font-size: 18px;
     font-weight: bold;
@@ -34,4 +38,25 @@ p{
 }
 #content{
     line-height: 23px;
+    /* margin-bottom: 100px; */
+} 
+.closing{
+    color: white;
+    margin-top: 100px;
+    background-color: rgb(227,65,64);
+    /* padding: 10px 25px 10px 25px; */
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    /* text-decoration: underline; */
+
+}
+.sp{
+    cursor: pointer;
+
+
+}
+.sp:hover{
+    text-decoration: underline;
 }
