@@ -1,0 +1,36 @@
+.name{
+    display: block;
+    margin-bottom: 10px;
+}
+#e1{
+    display: block;
+
+    margin-bottom: 5px;
+
+}
+
+.par{
+    width: 100px;
+    display: inline-block;
+    vertical-align: middle;
+    /* width: 150px; */
+}
+
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.url{
+
+    width: 100%;
+  max-width: 600px; /* or whatever fits your layout */
+  box-sizing: border-box;
+border-radius: 20px;
+border-color: white;
+border-style: solid;
+padding: 10px 16px;
+  transform: none;
+    box-shadow: 3px 3px 5px rgb(204, 202, 202);
+
+}
