@@ -1,0 +1,36 @@
+.t1{
+    width:300px;
+    /* width keeps the height adjusted based on breadth */
+    /* height: 300px; */
+    /* object-fit: contain; */
+    /* border: 2px solid rebeccapurple; */
+    /* border-width: 2px;
+    border-color: rebeccapurple; */
+    /* object-position: left; */
+    display: block;
+}
+.s{
+    /* border-radius: 10px; */
+    font-size: 20px;
+    /* margin-left: 12px;
+    margin-top: 0;
+    margin-bottom: 20px; */
+    /* display: block; */
+}
+.title{
+    /* width: 200px; */
+    /* background-color: cadetblue; */
+}
+.yt,.stats{
+
+    /* display: inline-block; */
+
+}
+.yt{
+
+
+    
+    /* background-color: blueviolet; */
+
+
+}
