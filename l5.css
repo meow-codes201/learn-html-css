@@ -1,0 +1,18 @@
+h1{
+    /* font-family: Monsieur La Doulaise; */
+    margin-bottom: 0;
+}
+p{
+    margin-top: 0;
+    margin-top: 5px;
+    font-family: Monsieur La Doulaise;
+
+}
+span{
+    text-decoration: underline;
+}
+div{
+    text-align: center;
+    font-family: Montserrat;
+
+}
