@@ -16,13 +16,22 @@
     /* width: 150px; */
 }
 
-div{
-    display: flex;
+.gg{
+    align-items: center;
+    /* display: flex;
     align-items: center;
     justify-content: center;
+*/
+    } 
+
+.ggl{
+    display: block;
+    align-items: center;
+
 }
 .url{
-
+display: block;
+align-items: center;
     width: 100%;
   max-width: 600px; /* or whatever fits your layout */
   box-sizing: border-box;
@@ -32,5 +41,29 @@ border-style: solid;
 padding: 10px 16px;
   transform: none;
     box-shadow: 3px 3px 5px rgb(204, 202, 202);
+
+}
+
+.g{
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 100px;
+
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(240, 238, 238);
+    border: none;
+    border-radius: 5px;
+
+}
+.i{
+    display: inline-block;
+    margin-left: 50px;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(240, 238, 238);
+    border: none;
+    border-radius: 5px;
+
 
 }
