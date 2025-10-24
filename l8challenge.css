@@ -1,0 +1,47 @@
+#name{
+
+    border-radius: 5px;
+    border-style: solid;
+    border-color: lightgray;
+    padding-left: 5px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+#lname{
+     border-radius: 5px;
+    border-style: solid;
+    border-color: lightgray;
+    padding-left: 5px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+margin-left: 5px;
+}
+#e1{
+    width: 370px;
+    display: block;
+    margin-top: 10px;
+    border: 2px solid rgb(170, 170, 170);
+    border-radius: 5px;
+    font-size: medium;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+
+}
+.sign{
+    margin-top: 5px;
+    font-weight: 600;
+    padding-top: 10px;
+    color: white;
+    padding-bottom: 10px;
+    padding-left: 150px;
+    padding-right: 159px;
+    background-color: rgb(80, 109, 255);
+    font-size: 20px;
+    border: 2px solid rgb(80, 108, 255);
+    border-radius: 8px;
+}
