@@ -1,0 +1,49 @@
+.pfp,.pfp1,.pfp2{
+    display: inline-block;
+    box-shadow: 3px 3px 10px rgb(236, 234, 234);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.cat{
+
+    width:250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: top;
+
+
+
+}
+.name{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.cj2,.c21,.c22{
+
+    font-size: 15px;
+    color: rgb(124, 118, 118);
+    font-weight: 600;
+    margin-top: 0px;
+    margin-top: 3px;
+}
+.add,.add1,.add2{
+
+    color: white;
+    background-color: rgb(72, 106, 242);
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 76, 255);
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.c1, .c2{
+    width:250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: top;
+}
