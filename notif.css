@@ -1,0 +1,8 @@
+button{
+    margin-left: 50px;
+    border-radius: 13px;
+    border:1 px solid slateblue;
+    background-color: slateblue;
+    color: white;
+    padding:5px 10px 5px 10px;
+}
