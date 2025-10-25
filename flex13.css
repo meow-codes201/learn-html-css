@@ -1,0 +1,30 @@
+.container{
+ 
+    display: flex;
+    align-items: center;
+    /* height: 100px ; */
+    
+}
+.pink{
+    background-color: lightpink;
+    width: 100px;
+
+}
+.i1{
+    margin-left: 25px;
+    background-color: black;
+    color: white;
+    padding-right: 0;
+    padding-right: 4px;
+    margin-right: 35px;
+    /* display: inline; */
+    padding-bottom: 0;
+}
+
+.blue{
+
+    background-color: lightblue;
+    flex:1;
+    height: 50px;
+
+}
