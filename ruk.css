@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+}
+
+.pink{
+    background-color: pink;
+    width: 100px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.blue{
+    background-color: skyblue;
+    width: 200px;
+    /* justify-content: space-between;
+    align-items: center;
+} */
+}
+
+span{
+    background-color: black;
+    color: wheat;
+    /* align-items: center; */
+
+}
+
+.blued{
+
+    display: flex;
+    align-items: center;
+
+
+    justify-content: space-between;
+}
+.sb{
+    margin-bottom: 20px;
+}
