@@ -1,13 +1,26 @@
+body{
+    margin:0 0 0 0;
+    padding-top: 80px;
+    padding-left: 80px;
+
+}
+p{
+    font-family: Roboto,'Times New Roman', Times, serif;
+    margin: 0 0 0 0;
+
+}
 .t1{
-    width:300px;
+    width:100%;
+    /* width:300px; */
     /* width keeps the height adjusted based on breadth */
     /* height: 300px; */
-    /* object-fit: contain; */
+    object-fit: cover;
     /* border: 2px solid rebeccapurple; */
     /* border-width: 2px;
     border-color: rebeccapurple; */
-    /* object-position: left; */
-    display: block;
+    object-position: left;
+    /* display: block; */
+    margin-bottom: 5px;
 }
 .s{
     /* border-radius: 10px; */
@@ -15,22 +28,283 @@
     /* margin-left: 12px;
     margin-top: 0;
     margin-bottom: 20px; */
-    /* display: block; */
+    display: block;
 }
 .title{
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 15px;
+    margin-bottom: 18px;
     /* width: 200px; */
     /* background-color: cadetblue; */
 }
 .yt,.stats{
-
+    font-size: 15px;
+    color: rgb(100,99,100);
     /* display: inline-block; */
 
 }
-.yt{
+.stats{
+    /* font-size: 14px; */
+    margin-top: 4px;
+}
 
+
+.Cpfp{
+    /* background-color: gray; */
+}
+.info{
+
+    /*  */
+
+}
+.pfp1{
+    width: 50px;
+    border-radius: 50%;
+}
+.thumb{
+    margin-bottom: 13px;
+}
+
+
+.video-infro-grid{
+    display:grid;
+    grid-template-columns: 50px 1fr;
+}
+
+.video-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+}
+.header{
+
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+
+.middle-section{
+
+ /* background-color: lightpink; */
+ flex:1;
+ margin-left:70px;
+ margin-right: 35px;
+ max-width: 500px;
+ display: flex;
+ align-items: center;
+
+}
+
+.search-button{
+
+    height: 40px;
+    width:66px;
+    background-color: white;
+    border: none;
+    border: 1px solid rgb(192,192,192);
+    margin-left: -1px;
+    margin-right: 10px;
+}
+.search-icon{
+    
+    height: 35px;
+    margin-top: 0px;
+
+}
+.voice-button{
+
+   height:40px;
+   width:40px;
+   border-radius: 20px;
+   border: none;
+   background-color: rgba(0, 0, 0, 0.025);
+;
+
+}
+.voice-icon{
+    /* height: 40px; */
+    width: 28px;
+}
+
+.s{
+
+    flex: 1;
+    height: 36px;
+    width: 0;
+    font-size: 16px;
+    padding-left: 10px;
+    border: 1px solid rgb(192,192,192);
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
+
+
+}
+
+.s::placeholder{
+    font-family: Roboto,Arial, Helvetica, sans-serif;
+
+    font-size: 16px;
 
     
-    /* background-color: blueviolet; */
+
+
+
+
+}
+
+
+.right-section{
+    
+    width: 200px; 
+    /* background-color: lightseagreen; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+
+}
+
+.upload-icon{
+
+    height: 24px;
+    
+
+}
+
+.apps-icon{
+height: 44px;
+
+
+}
+
+.notifications-icon{
+
+height: 24px;
+
+}
+
+.user-picture{
+/* margin-left: 6px; */
+height: 32px;
+border-radius: 16px;
+margin-right: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.left-section{
+
+    display: flex;
+   /* background-color: lightblue; */
+    width: 180px;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.hamburger-menu{
+
+    height: 35px;
+    margin-left: 10px;
+    margin-right: 40px;
+
+}
+.youtube-logo{
+
+    height: 120px;
+
+}
+.header{
+
+    position: fixed;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    /* height: 55px; */
+    background-color: white;
+    /* border-width: 1px; */
+    border-bottom:1px solid rgb(228,228,228);
+    z-index: 100;
+
+
+
+
+
+}
+.sidebar{
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top:55px;
+    background-color: white;
+    width: 72px;
+
+}
+.thumb-row{
+
+    position: relative;
+
+
+
+}
+
+.video-time{
+    background-color: black;
+    color: white;
+position: absolute;
+right: 8px;
+bottom: 10px;
+font-family: Roboto, Arial;
+font-size: 12px;
+font-weight: 500;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 4px;
+padding-bottom: 4px;
+
+border-radius: 2px;
+
+
+}
+.notifications-container{
+
+    position: relative;
+
+
+
+}
+
+
+.notifications-count{
+
+    position: absolute;
+    right: -2px;
+    top:-5px;
+    background-color: rgb(200, 0, 0);
+    color: white;
+    font-family: Roboto, Arial;
+    font-size: 11px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 10px;
 
 
 }
